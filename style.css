@@ -1,0 +1,12 @@
+.actor-list {
+  list-style: none;
+
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.actor-item {
+  border: solid 1px black;
+  padding: 1rem;
+}
